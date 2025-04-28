@@ -1,0 +1,486 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+
+body {  
+    background-color: #000000;
+}
+
+.navbar {
+    position: absolute;
+    left: 1080px;
+    top: 23px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 18px;
+    font-size: 16px;
+    white-space: nowrap;
+    font-family: inherit;
+    color: #ffffff;
+    text-decoration: underline;
+    font-family: 'Cairo', sans-serif;
+}
+
+.navbar a:hover {
+    color: #8a8a89;
+    text-decoration: none;
+}
+
+.facebook {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    position: absolute;
+    top: 32px;
+    left: 1400px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.facebook:hover {
+    content: url("img/facebook_hover.png");
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.insta {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    border-radius: 0px;
+    position: absolute;
+    top: 32px;
+    left: 1430px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.insta:hover {
+    content: url("img/instagram_hover.png");
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.whatsapp {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    border-radius: 0px;
+    position: absolute;
+    top: 32px;
+    left: 1460px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.whatsapp:hover {
+    content: url("img/whatsapp_hover.png");
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.about {
+    position: absolute;
+    top: 60px;
+    left: 680px;
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+}
+
+.about .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about .container h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-size: 24px;
+    color: #a9a9a9;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.feilds {
+    color: #00ffb3;
+    font-weight: bold;
+}
+
+.experince {
+    position: relative;
+    right: 155px;
+}
+
+.opspsp {
+    color: #00eaff;
+    }
+
+.Khaled {
+    position: absolute;
+    top: 110px;
+    left: 150px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.profile {
+    width: 420px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 30px;
+
+}
+
+.name {
+    color: #ffffff;
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    position: relative;
+    right: 60px;
+    direction: rtl;
+}
+
+.name span {
+    position: relative;
+    right: 8px;
+}
+
+.cv {
+    position: relative;
+    top: 30px;
+    left: 305px;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 60px;
+    background: #ffffffb3;
+    border-radius: 15px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.cv a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    left: 70px;
+    top: 15px;
+}
+
+.cv i {
+    color: #e74c3c;
+    margin-right: 8px;
+    font-size: 24px;
+    position: relative;
+    left: -50px;
+    top: -23px;
+}
+
+.cv .infooo {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Cairo', sans-serif;
+    margin-left: 10px;
+}
+
+.cvs {
+    position: relative;
+    top: -40px;
+    left: -250px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.linee {
+    border-top: 4px solid rgba(0, 234, 255, 0.2); 
+    position: relative;
+    top: 710px;
+}
+
+.prprprpr {
+    position: absolute;
+    top: 780px;
+    left: 750px;
+    font-family: 'Cairo', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.prprprpr2 {
+    position: absolute;
+    font-family: 'Cairo', sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    top: 840px;
+    left: 320px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.prprprpr2:hover {
+    color: #8a8a89;
+    text-decoration: none;
+}
+
+.projects-container {
+    color: #ffffff;
+    direction: rtl;
+    position: relative;
+    top: 930px;
+    left: -130px;
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    gap: 100px;
+}
+
+.projects-container .project p {
+    color: #a9a9a9;
+    direction: rtl;
+}
+
+.card {
+    position: relative;
+    top: 40px;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 60px;
+    background: #ffffffb3;
+    border-radius: 15px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.card a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    top: 11px;
+    left: -8px;
+}
+
+.card i {
+    color: #e74c3c;
+    font-size: 24px;
+    position: relative;
+    left: -115px;
+    top: -23px;
+}
+
+.card .infooo {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.linee2 {
+    border-top: 4px solid rgba(0, 234, 255, 0.2); 
+    position: relative;
+    top: 1040px;
+}
+
+.contact-us {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f400;
+    border-radius: 10px;
+    margin-top: 1100px;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 150px
+}
+
+.contact-us h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.contact-item i {
+    font-size: 25px;
+    color: #e74c3c;
+    margin-right: 10px;
+}
+
+.contact-item span {
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #33333300;
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer .social-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .social-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(175deg, rgba(139, 194, 1, 0.208), rgba(4, 102, 250, 0.2));
+    transition: transform 0.4s ease-in-out, background 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+footer .social-link:hover {
+    transform: translateY(-10px) scale(1.1);
+    background: linear-gradient(175deg, rgba(139, 194, 1, 0.208), rgba(4, 102, 250, 0.2));
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+footer .social-link i {
+    font-size: 22px;
+}
+
+
+/* أجهزة الموبايل */
+@media (max-width: 576px) {
+    .navbar {
+      left: 10px;
+      top: 5px;
+    }
+    .about h2 {
+      font-size: 24px;
+    }
+    .about p {
+      font-size: 16px;
+    }
+    .facebook, .insta, .whatsapp {
+      left: auto;
+      position: relative;
+    }
+    .projects-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
+  /* الأجهزة اللوحية */
+  @media (min-width: 577px) and (max-width: 768px) {
+    .navbar {
+      left: 300px;
+      top: 10px;
+    }
+    .about h2 {
+      font-size: 32px;
+    }
+    .about p {
+      font-size: 20px;
+    }
+    .projects-container {
+      flex-direction: row;
+      gap: 50px;
+    }
+  }
+  
+  /* أجهزة الكمبيوتر */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .navbar {
+      left: 800px;
+      top: 20px;
+    }
+    .about h2 {
+      font-size: 36px;
+    }
+    .about p {
+      font-size: 22px;
+    }
+  }
+  
+  /* الشاشات الكبيرة */
+  @media (min-width: 1025px) {
+    .navbar {
+      left: 1080px;
+      top: 23px;
+    }
+    .about h2 {
+      font-size: 40px;
+    }
+    .about p {
+      font-size: 24px;
+    }
+  }
+  
