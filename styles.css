@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    
 }
 
 header {
@@ -15,101 +16,52 @@ body {
     background-color: #000000;
 }
 
-.navbar {
-    position: absolute;
-    left: 1080px;
-    top: 23px;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+
+.logo {
+    float: left;
+    padding: 10px 0;
+  }
+  
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-color: #000000; /* حط لون الخلفية عشان ميكونش شفاف */
+    z-index: 1000;
+    padding: 20px 0;
 }
+
 .navbar a {
     color: #ffffff;
-    text-decoration: none;
-    margin-left: 18px;
-    font-size: 16px;
-    white-space: nowrap;
-    font-family: inherit;
-    color: #ffffff;
-    text-decoration: underline;
     font-family: 'Cairo', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
 }
 
 .navbar a:hover {
     color: #8a8a89;
-    text-decoration: none;
 }
 
-.facebook {
-    width: 15px;
-    height: 15px;
-    object-fit: cover;
-    position: absolute;
-    top: 32px;
-    left: 1400px;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+.iconss a {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0 8px;
+    transition: color 0.3s ease;
 }
 
-.facebook:hover {
-    content: url("img/facebook_hover.png");
-    width: 15px;
-    height: 15px;
-    object-fit: cover;
-    position: absolute;
+.iconss a:hover {
+    color: #e74c3c;
 }
 
-.insta {
-    width: 15px;
-    height: 15px;
-    object-fit: cover;
-    border-radius: 0px;
-    position: absolute;
-    top: 32px;
-    left: 1430px;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-}
-
-.insta:hover {
-    content: url("img/instagram_hover.png");
-    width: 15px;
-    height: 15px;
-    object-fit: cover;
-    position: absolute;
-}
-
-.whatsapp {
-    width: 15px;
-    height: 15px;
-    object-fit: cover;
-    border-radius: 0px;
-    position: absolute;
-    top: 32px;
-    left: 1460px;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-}
-
-.whatsapp:hover {
-    content: url("img/whatsapp_hover.png");
-    width: 15px;
-    height: 15px;
-    object-fit: cover;
-    position: absolute;
-}
-
-.about {
-    position: absolute;
-    top: 60px;
-    left: 680px;
+  .about {
+    margin-top: -80px; /* إضافة مسافة بين قسم خالد وقسم من نحن */
     direction: rtl;
     font-family: 'Cairo', sans-serif;
 }
@@ -148,121 +100,121 @@ body {
 
 .opspsp {
     color: #00eaff;
-    }
+}
 
 .Khaled {
-    position: absolute;
-    top: 110px;
-    left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+    padding: 0px;
+    text-align: center;
 }
+    
 .profile {
-    width: 420px;
-    height: 420px;
+    width: 400px;
+    height: 200px;
     object-fit: cover;
     border-radius: 30px;
-
+    max-width: 100%;
 }
-
+    
 .name {
     color: #ffffff;
     font-family: 'Cairo', sans-serif;
     font-size: 20px;
-    position: relative;
-    right: 60px;
+    margin-top: 20px;
     direction: rtl;
 }
-
+    
 .name span {
-    position: relative;
-    right: 8px;
+    display: block;
+    margin-top: -40px;
 }
-
+    
+.cvs {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+    
 .cv {
-    position: relative;
-    top: 30px;
-    left: 305px;
-    transform: translate(-50%, -50%);
-    width: 160px;
-    height: 60px;
+    width: 180px;
+    height: 80px;
     background: #ffffffb3;
     border-radius: 15px;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    padding: 15px;
+    box-sizing: border-box;
+    direction: rtl;
+    display: flex;
+    align-items: center;
 }
-
+    
 .cv a {
     text-decoration: none;
     color: #000000;
     font-family: 'Cairo', sans-serif;
     font-size: 14px;
     font-weight: bold;
-    position: relative;
-    left: 70px;
-    top: 15px;
 }
 
 .cv i {
     color: #e74c3c;
-    margin-right: 8px;
     font-size: 24px;
-    position: relative;
-    left: -50px;
-    top: -23px;
+    margin-right: 10px;
 }
-
-.cv .infooo {
-    color: #ffffff;
+.infooo {
+    color: #000000;
     font-size: 15px;
     font-family: 'Cairo', sans-serif;
-    margin-left: 10px;
+    white-space: nowrap;
 }
-
-.cvs {
-    position: relative;
-    top: -40px;
-    left: -250px;
-    display: flex;
-    gap: 100px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
+    
 
 .linee {
     border-top: 4px solid rgba(0, 234, 255, 0.2); 
-    position: relative;
-    top: 710px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.linee2 {
+    border-top: 4px solid rgba(0, 234, 255, 0.2); 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.projects-title-wrapper {
+    display: flex;
+    flex-direction: column; /* علشان يكونوا فوق بعض */
+    align-items: center;     /* يتوسّطوا أفقيًا */
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .prprprpr {
-    position: absolute;
-    top: 780px;
-    left: 750px;
     font-family: 'Cairo', sans-serif;
     color: #ffffff;
     font-size: 40px;
     font-weight: bold;
     user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    margin-bottom: 10px;
 }
 
 .prprprpr2 {
-    position: absolute;
     font-family: 'Cairo', sans-serif;
     color: #ffffff;
-    font-size: 12px;
-    top: 840px;
-    left: 320px;
+    font-size: 16px;
     text-decoration: underline;
     white-space: nowrap;
+    transition: color 0.3s ease;
 }
 
 .prprprpr2:hover {
@@ -273,31 +225,51 @@ body {
 .projects-container {
     color: #ffffff;
     direction: rtl;
-    position: relative;
-    top: 930px;
-    left: -130px;
     font-family: 'Cairo', sans-serif;
     display: flex;
-    gap: 100px;
+    flex-direction: row; /* خلي العناصر جنب بعض */
+    flex-wrap: wrap;     /* ينزلوا تحت بعض في الشاشات الصغيرة */
+    justify-content: center; /* يخلي العناصر في النص */
+    gap: 40px; /* مسافة بين المشاريع */
+    margin-top: 60px; /* مسافة من القسم اللي قبله */
+    margin-bottom: 60px;
+}
+
+.project {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px; /* حجم مناسب لعنصر واحد */
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.projects-container .project h3 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
 .projects-container .project p {
     color: #a9a9a9;
-    direction: rtl;
+    font-size: 16px;
+    line-height: 1.7;
 }
 
 .card {
-    position: relative;
-    top: 40px;
-    transform: translate(-50%, -50%);
+    margin-top: 20px;
     width: 160px;
     height: 60px;
     background: #ffffffb3;
     border-radius: 15px;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .card a {
@@ -306,37 +278,28 @@ body {
     font-family: 'Cairo', sans-serif;
     font-size: 14px;
     font-weight: bold;
-    position: relative;
-    top: 11px;
-    left: -8px;
 }
 
 .card i {
     color: #e74c3c;
-    font-size: 24px;
-    position: relative;
-    left: -115px;
-    top: -23px;
+    font-size: 20px;
 }
 
-.card .infooo {
-    color: #ffffff;
-    font-size: 15px;
-    font-family: 'Cairo', sans-serif;
-}
+@media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.linee2 {
-    border-top: 4px solid rgba(0, 234, 255, 0.2); 
-    position: relative;
-    top: 1040px;
+    .project {
+        width: 90%;
+    }
 }
-
 .contact-us {
     text-align: center;
     padding: 50px;
     background-color: #f4f4f400;
     border-radius: 10px;
-    margin-top: 1100px;
     font-family: 'Cairo', sans-serif;
     margin-bottom: 150px
 }
@@ -370,6 +333,7 @@ body {
 .contact-item span {
     font-size: 16px;
 }
+
 
 footer {
     text-align: center;
@@ -414,73 +378,3 @@ footer .social-link:hover {
 footer .social-link i {
     font-size: 22px;
 }
-
-
-/* أجهزة الموبايل */
-@media (max-width: 576px) {
-    .navbar {
-      left: 10px;
-      top: 5px;
-    }
-    .about h2 {
-      font-size: 24px;
-    }
-    .about p {
-      font-size: 16px;
-    }
-    .facebook, .insta, .whatsapp {
-      left: auto;
-      position: relative;
-    }
-    .projects-container {
-      flex-direction: column;
-      gap: 20px;
-    }
-  }
-  
-  /* الأجهزة اللوحية */
-  @media (min-width: 577px) and (max-width: 768px) {
-    .navbar {
-      left: 300px;
-      top: 10px;
-    }
-    .about h2 {
-      font-size: 32px;
-    }
-    .about p {
-      font-size: 20px;
-    }
-    .projects-container {
-      flex-direction: row;
-      gap: 50px;
-    }
-  }
-  
-  /* أجهزة الكمبيوتر */
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .navbar {
-      left: 800px;
-      top: 20px;
-    }
-    .about h2 {
-      font-size: 36px;
-    }
-    .about p {
-      font-size: 22px;
-    }
-  }
-  
-  /* الشاشات الكبيرة */
-  @media (min-width: 1025px) {
-    .navbar {
-      left: 1080px;
-      top: 23px;
-    }
-    .about h2 {
-      font-size: 40px;
-    }
-    .about p {
-      font-size: 24px;
-    }
-  }
-  
