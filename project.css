@@ -1,201 +1,223 @@
-html {
-    scroll-behavior: smooth;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشاريعنا</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Lalezar&display=swap');</style>
+</head>
+<header>
+</header>
+<body>
 
-header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background-color: #fff;
-    box-shadow: 0 4px 2px -2px gray;
-}
+    <div class="navbar-wrapper">
+        <div class="navbar">
+            <a href="index.html">بينات شخصيه</a>
+            <a href="projects.html">مشاريع</a>
+            <a href="index.html">للتواصل</a>
+        </div>
+        <div class="iconss">
+            <a href="https://www.facebook.com/khaled.askar.77" target="_blank" class="facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/khaled.askar_1963/" target="_blank" class="insta">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=201285839909" target="_blank" class="whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+      </div>
+      
+    <div class="projects-container">
+        <h1 class="prprprpr" id="projects">مشاريعنا </h1>
 
-
-body {  
-    background-color: #000000;
-    user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-}
-
-.navbar {
-    position: absolute;
-    left: 1080px;
-    top: 23px;
-}
-.navbar a {
-    color: #ffffff;
-    text-decoration: none;
-    margin-left: 18px;
-    font-size: 16px;
-    white-space: nowrap;
-    font-family: inherit;
-    color: #ffffff;
-    text-decoration: underline;
-    font-family: 'Cairo', sans-serif;
-}
-
-.navbar a:hover {
-    color: #8a8a89;
-    text-decoration: none;
-}
-
-.facebook {
-    width: 15px;
-    height: 15px;
-    object-fit: cover;
-    position: absolute;
-    top: 32px;
-    left: 1400px;
-}
-
-.facebook:hover {
-    content: url("img/facebook_hover.png");
-    width: 15px;
-    height: 15px;
-    object-fit: cover;
-    position: absolute;
-}
-
-.insta {
-    width: 15px;
-    height: 15px;
-    object-fit: cover;
-    border-radius: 0px;
-    position: absolute;
-    top: 32px;
-    left: 1430px;
-}
-
-.insta:hover {
-    content: url("img/instagram_hover.png");
-    width: 15px;
-    height: 15px;
-    object-fit: cover;
-    position: absolute;
-}
-
-.whatsapp {
-    width: 15px;
-    height: 15px;
-    object-fit: cover;
-    border-radius: 0px;
-    position: absolute;
-    top: 32px;
-    left: 1460px;
-}
-
-.whatsapp:hover {
-    content: url("img/whatsapp_hover.png");
-    width: 15px;
-    height: 15px;
-    object-fit: cover;
-    position: absolute;
-}
-
-.projects-container {
-    color: #ffffff;
-    direction: rtl;
-    position: relative;
-    top: 100px;
-    left: -130px;
-    font-family: 'Cairo', sans-serif;
-    display: flex;
-    gap: 20px; /* المسافة بين العناصر */
-    flex-wrap: wrap; /* السماح بلف العناصر لأسطر جديدة */
-    margin-bottom: 120px;
-}
-
-.projects-container .project {
-    width: 30%; /* عرض العنصر، لو عدد العناصر أكبر من 3 بيتم لفهم لأسطر جديدة */
-    min-width: 200px; /* الحد الأدنى لعرض العنصر */
-    margin-top: 50px; /* المسافة من الأعلى */
-}
-
-.projects-container .project p {
-    color: #a9a9a9;
-    direction: rtl;
-}
-
-.card {
-    position: relative;
-    top: 40px;
-    transform: translate(-50%, -50%);
-    width: 160px;
-    height: 60px;
-    background: #ffffffb3;
-    border-radius: 15px;
-}
-
-.card a {
-    text-decoration: none;
-    color: #000000;
-    font-family: 'Cairo', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    position: relative;
-    top: 11px;
-    left: -8px;
-}
-
-.card i {
-    color: #e74c3c;
-    font-size: 24px;
-    position: relative;
-    left: -115px;
-    top: -23px;
-}
-
-.card .infooo {
-    color: #ffffff;
-    font-size: 15px;
-    font-family: 'Cairo', sans-serif;
-}
-
-
-
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #33333300;
-    color: #fff;
-    font-family: 'Cairo', sans-serif;
-}
-
-footer p {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-footer .social-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-footer .social-link {
-    text-decoration: none;
-    color: #fff;
-    font-size: 28px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(175deg, rgba(139, 194, 1, 0.208), rgba(4, 102, 250, 0.2));
-    transition: transform 0.4s ease-in-out, background 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
-}
-
-footer .social-link:hover {
-    transform: translateY(-10px) scale(1.1);
-    background: linear-gradient(175deg, rgba(139, 194, 1, 0.208), rgba(4, 102, 250, 0.2));
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
-}
-
-footer .social-link i {
-    font-size: 22px;
-}
+        <div class="project">
+            <br>
+            <br>
+            <h3>1- مشروع خدمات الدعم الفني <br>والإشراف على مشاريع جامعة الطائف.</h3>
+            <p>
+                القيام بإعداد وكتابة كافة التقارير الفنية للمشروع<br>    
+                ومتابعة سير العمل بالموقع (مهندس المالك) من خلال <br>
+                العمل والتعاون والشراكة مع<br>
+                 مكتب دكتور (أحمد فريد مصطفي)  
+                 للهندسة<br>
+                  والاستشارات الهندسية
+                  (بالمملكة العربية السعودية)
+            </p>
+        <div class="card" id="card">
+                <a href="cv.pdf" target="_blank">
+                    رابط المشروع <br>
+                </a>
+                <a class="pdf" href="cv.pdf" target="_blank">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+            </div>
+        </div>
+        <div class="project">
+            <br>
+            <br>
+            <h3>2- مشروع المرصد الحضري لحاضرة بريده.</h3>
+            <p>
+                القيام بإعداده وكتابة التقارير الفنية للمشروع من خلال <br>
+                العمل والتعاون والشراكة مع<br>
+                    مكتب دكتور (أحمد فريد مصطفي)  
+                    للهندسة<br>
+                    والاستشارات الهندسية
+                    (بالمملكة العربية السعودية)
+            </p>
+        <div class="card" id="card">
+                <a href="https://drive.google.com/file/d/1X9taJ1eYUMUBv-d4FCvh1-PG9E1JPdH5/view?usp=sharing" target="_blank">
+                    رابط المشروع <br>
+                </a>
+                <a class="pdf" href="https://drive.google.com/file/d/1X9taJ1eYUMUBv-d4FCvh1-PG9E1JPdH5/view?usp=sharing" target="_blank">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+            </div>
+        </div>
+        <div class="project">
+            <br>
+            <br>
+            <h3>3- مشروع المرصد الحضري لمدينة حائل.</h3>
+            <p>
+                القيام بإعداده وكتابة التقارير الفنية للمشروع من خلال <br>
+                العمل والتعاون والشراكة مع<br>
+                    مكتب دكتور (أحمد فريد مصطفي)  
+                    للهندسة<br>
+                    والاستشارات الهندسية
+                    (بالمملكة العربية السعودية)
+            </p>
+        <div class="card" id="card">
+                <a href="https://drive.google.com/file/d/1FmZxnxlUAoTSQ7u5iFR0Azq8BSHpWMYa/view?usp=sharing" target="_blank">
+                    رابط المشروع <br>
+                </a>
+                <a class="pdf" href="https://drive.google.com/file/d/1FmZxnxlUAoTSQ7u5iFR0Azq8BSHpWMYa/view?usp=sharing" target="_blank">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+            </div>
+        </div>
+        <div class="project">
+            <h3>4- مشروع إعداد المخطط الإرشادي <br> لمكة المكرمة امانة العاصمة المقدسة <br> بالمملكة العربية السعودية </h3>
+            <p>
+                القيام بإعداده وكتابة التقارير الفنية للمشروع من خلال <br>
+                العمل والتعاون والشراكة مع<br>
+                    مكتب دكتور (أحمد فريد مصطفي)  
+                    للهندسة<br>
+                    والاستشارات الهندسية
+                    (بالمملكة العربية السعودية)
+            </p>
+        <div class="card" id="card">
+                <a href="cv.pdf" target="_blank">
+                    رابط المشروع <br>
+                </a>
+                <a class="pdf" href="cv.pdf" target="_blank">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+            </div>
+        </div>
+        <div class="project">
+            <h3>5- مشروع إعداد المخططات التفصيلية<br> لخدمات المناطق المركزية لأحدي عشر محافظة<br> تابعة لأمانة منطقة جدة<br> بالمملكة العربية السعودية وهي:<br> (الليث,خليص،القنفذة,رابغ,<br>الكامل,القوز, ثربيان،حجر, أضم، المظيلف،حلي).</h3>
+            <p>
+                القيام بإعداده وكتابة التقارير الفنية للمخططات التفصيلية<br>
+                لجميع المناطق <br>
+                من خلال 
+                العمل والتعاون والشراكة مع<br>
+                    مكتب دكتور (أحمد فريد مصطفي)  
+                    للهندسة<br>
+                    والاستشارات الهندسية
+                    (بالمملكة العربية السعودية)
+            </p>
+        <div class="card" id="card">
+                <a href="https://drive.google.com/file/d/1diMtdvDLYHLHHZAXl1D04ldE3ui_X0CB/view?usp=sharing" target="_blank">
+                    رابط المشروع <br>
+                </a>
+                <a class="pdf" href="https://drive.google.com/file/d/1diMtdvDLYHLHHZAXl1D04ldE3ui_X0CB/view?usp=sharing" target="_blank">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+            </div>
+        </div>
+        <div class="project">
+            <h3>6- مشروع محطة رفع وتنقية مياه <br>الصرف الصحي بالجبل الأصفر بالقاهرة <br>عقد 16-1(جزء من المشروع).</h3>
+            <p>
+                وهو (أحد المشاريع القومية العملاقة) بإجمالي<br>
+                بإجمالي مبلغ 1500 مليون جنيه مصري وشاركنا ضمن فرق <br>
+                العمل بالمشروع مع المكتب الاستشاري <br>
+               محرم باخوم بالتعاون مع المكتب الأمريكي البريطاني (الامبريك)
+            </p>
+        <div class="card" id="card">
+                <a href="cv.pdf" target="_blank">
+                    رابط المشروع <br>
+                </a>
+                <a class="pdf" href="cv.pdf" target="_blank">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+            </div>
+        </div>
+        <div class="project">
+            <h3>7- مشروعات مخططات استراتيجية للعديد من <br> مدن وقري مصر والتابعة للهيئة العامة <br> للتخطيط العمراني</h3>
+            <p>
+                مسجلين كمكتب استشاري بالهيئة العامة <br>
+                العامة للتخطيط العمراني التابعة لوزارة الإسكان المصرية.
+            </p>
+        <div class="card" id="card">
+                <a href="https://docs.google.com/presentation/d/106x-jRd3WRetuwaXrRz9mYcSyiEf69yp/edit?usp=sharing&ouid=104853459763038648659&rtpof=true&sd=true" target="_blank">
+                    رابط المشروع <br>
+                </a>
+                <a class="pdf" href="https://docs.google.com/presentation/d/106x-jRd3WRetuwaXrRz9mYcSyiEf69yp/edit?usp=sharing&ouid=104853459763038648659&rtpof=true&sd=true" target="_blank">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+            </div>
+        </div>
+        <div class="project">
+            <h3>8- مشاريع لمباني سكنية وسياحية (التصميمات والاشراف على تنفيذها)</h3>
+            <p>
+                القيام بها من خلال التعاون مع
+                مكاتب استشارية بسلطنة عمان
+            </p>
+        <div class="card" id="card">
+                <a href="https://drive.google.com/file/d/1HUyWdKNBHzrrcNor3Oe5mX9sUkdrS8R8/view?usp=sharing" target="_blank">
+                    رابط المشروع 1 <br>
+                </a>
+                <a class="pdf" href="https://drive.google.com/file/d/1HUyWdKNBHzrrcNor3Oe5mX9sUkdrS8R8/view?usp=sharing" target="_blank">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+            </div>
+            <div class="card" id="card">
+                <a href="https://drive.google.com/file/d/1zxsmckevqsPrpgDC8Q9hzXQK-cIFlCvh/view?usp=sharing" target="_blank">
+                    رابط المشروع 2 <br>
+                </a>
+                <a class="pdf" href="https://drive.google.com/file/d/1zxsmckevqsPrpgDC8Q9hzXQK-cIFlCvh/view?usp=sharing" target="_blank">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+            </div>
+            <div class="card" id="card">
+                <a href="https://drive.google.com/file/d/1j_JhTu1bBiHAcU66I9-tw0MeMHH9kefM/view?usp=sharing" target="_blank">
+                    رابط المشروع 3 <br>
+                </a>
+                <a class="pdf" href="https://drive.google.com/file/d/1j_JhTu1bBiHAcU66I9-tw0MeMHH9kefM/view?usp=sharing" target="_blank">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+            </div>
+        </div>      
+    </div>
+    <footer>
+        <p>Developer By Anas Askar &copy; 2025</p>
+    
+        <div class="social-container">
+            <a href="https://www.facebook.com/anas.our.92/"  target="_blank" class="social-link">
+                <i class='bx bxl-facebook' style='color:#ffffff'></i>
+            </a>
+            <a href="https://www.instagram.com/anasaskar_101/"  target="_blank" class="social-link">
+                <i class='bx bxl-instagram' style='color:#ffffff'></i>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=201124594608" target="_blank" class="social-link">
+                <i class='bx bxl-whatsapp' style='color:#ffffff'></i>
+            </a>
+            
+        </div>
+    </footer>
+</body>
+</html>
