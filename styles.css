@@ -321,6 +321,7 @@ body {
     align-items: center;
     font-size: 18px;
     color: #ffffff;
+    direction: rtl;
 }
 
 .contact-item i {
