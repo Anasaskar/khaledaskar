@@ -198,6 +198,44 @@ body {
     margin-bottom: 50px;
 }
 
+.trust-container     {
+    display: flex;
+    flex-direction: column; /* علشان يكونوا فوق بعض */
+    align-items: center;     /* يتوسّطوا أفقيًا */
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.trustss {
+    font-family: 'Cairo', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    user-select: none;
+    margin-bottom: 10px;
+}
+
+.trustss p {
+    font-family: 'Cairo', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+}
+
+
+.trust-container .project h3 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.trust-container .project p {
+    color: #a9a9a9;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
 .prprprpr {
     font-family: 'Cairo', sans-serif;
     color: #ffffff;
