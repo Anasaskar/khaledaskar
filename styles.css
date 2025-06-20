@@ -219,7 +219,6 @@ body {
     font-family: 'Cairo', sans-serif;
     color: #ffffff;
     font-size: 16px;
-    white-space: nowrap;
     transition: color 0.3s ease;
 }
 
